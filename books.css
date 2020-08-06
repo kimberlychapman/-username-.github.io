@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+html{
+    background-color: #F5F5F5;
+}
+
+h1{
+    font-family:'Playfair Display', serif;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-family:'Source Sans Pro', sans-serif ;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -1%;
+    margin-bottom: 3%;
+}
+#description{
+    font-family:'Source Sans Pro', sans-serif ;
+    font-size: 70%;
+    /* background-color: white; */
+    display: none;
+    border: 1px solid #ccc;
+}
+#cover{
+    border: solid black 1px;
+    height:200px;
+    width:200px;
+}
+.book:hover #description{
+    display: block;
+    background-color: white;
+    color: black;
+    font-family:'Source Sans Pro', sans-serif ;
+    font-size: 80%;
+}
+.book{
+    height: 200px;
+    width:200px;
+    padding:20px;
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+  @media only screen and (max-width: 550px) {
+
+    h1, h2{
+        width:500px;
+    }
+  }
