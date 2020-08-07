@@ -28,7 +28,8 @@ h2{
     font-size: 70%;
     /* background-color: white; */
     display: none;
-    border: 1px solid #ccc;
+    margin-left:5px;
+    /* border: 1px solid #ccc; */
 }
 #cover{
     border: solid black 1px;
@@ -37,15 +38,17 @@ h2{
 }
 .book:hover #description{
     display: block;
-    background-color: white;
+    /* background-color: white; */
     color: black;
     font-family:'Source Sans Pro', sans-serif ;
     font-size: 80%;
 }
 .book{
     height: 200px;
-    width:200px;
+    width:350px;
     padding:20px;
+    display:flex;
+    flex-direction: row;
 }
 .books{
     display: flex;
